@@ -45,8 +45,8 @@ app.get('/', function(req, res){
 
 //new employee
 app.get('/employee/new', function(req, res) {
-    res.render('employee_new', {
-        title: 'New Employee'
+    res.render('employer_new', {
+        title: 'New Employer'
     });
 });
 
